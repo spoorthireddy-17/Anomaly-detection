@@ -15,7 +15,7 @@ st.markdown("---")
 st.markdown("This application uses **Isolation Forest** to detect anomalies in air quality data.")
  
 # Load the trained model
-model_path= joblib.load("isolation_forest_air_quality.pkl")
+model_path= joblib.load("isolation_forest_model.pkl")
  
 try:
     model = joblib.load(model_path)
